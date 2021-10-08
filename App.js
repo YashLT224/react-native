@@ -7,7 +7,12 @@ import CarItem from "./components/CarItem/index";
 export default function App() {
   return (
     <View style={styles.container}>
-      <CarItem />
+      <CarItem
+        name={"Model X"}
+        tagline={"starting from $69,000"}
+        taglineCTA={"Touchless delivery"}
+        image={ModelX}
+      />
       <StatusBar style="auto " />
     </View>
   );
